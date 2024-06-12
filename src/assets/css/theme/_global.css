@@ -1,0 +1,9 @@
+html {
+  body {
+    @apply font-poppins scrollbar-3 text-theme-text-white-100 bg-theme-bg-white;
+
+    &.dark {
+      @apply text-theme-text-dark-100 bg-theme-bg-dark;
+    }
+  }
+}

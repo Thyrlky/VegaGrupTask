@@ -1,0 +1,18 @@
+@import './_tailwind.css';
+
+
+@import 'vue-toastification/dist/index.css';
+@import 'floating-vue/dist/style.css';
+
+@import './custom/_scrollbar.css';
+@import './custom/_sweetalert.css';
+@import './custom/_toastification.css';
+
+@import './theme/_global.css';
+@import './theme/_button.css';
+@import './theme/_form-control.css';
+@import './theme/_card.css';
+@import './theme/_border.css';
+@import './theme/_filter-area.css';
+
+@import './font/_poppins.css';

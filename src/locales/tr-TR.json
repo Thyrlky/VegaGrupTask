@@ -1,0 +1,13 @@
+{
+  "Enums": {
+    "DarkMode": {
+      "true": "Koyu Mod",
+      "false": "Açık Mod"
+    }
+  },
+  "RouteName": {
+    "dashboard": "Anasayfa",
+
+    "userList": "Kullanıcı Listesi"
+  }
+}

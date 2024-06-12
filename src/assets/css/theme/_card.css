@@ -1,0 +1,3 @@
+.card {
+  @apply relative rounded-md bg-theme-cardBg-white dark:bg-theme-cardBg-dark shadow-card;
+}

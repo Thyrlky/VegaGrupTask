@@ -1,0 +1,20 @@
+.Vue-Toastification__container {
+  @apply !rounded-none;
+  .Vue-Toastification__toast {
+    &.Vue-Toastification__toast--success {
+      @apply !bg-success;
+    }
+
+    &.Vue-Toastification__toast--warning {
+      @apply !bg-warning;
+    }
+
+    &.Vue-Toastification__toast--error {
+      @apply !bg-danger;
+    }
+
+    &.Vue-Toastification__toast--info {
+      @apply !bg-info;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.form-control {
+  @apply w-full px-3 py-2 rounded-md !bg-theme-cardBg-white dark:!bg-theme-cardBg-dark border border-theme-border-white dark:border-theme-border-dark focus:!border-primary outline-0 appearance-none;
+
+  &.valid {
+    @apply border-success;
+  }
+
+  &.invalid {
+    @apply border-danger;
+  }
+}
+
+.form-control-flatPickr {
+  @apply w-full rounded-md border border-theme-border-white dark:border-theme-border-dark focus-within:!border-primary;
+
+  &.valid {
+    @apply border-success;
+  }
+
+  &.invalid {
+    @apply border-danger;
+  }
+
+  input {
+    @apply w-full pl-12 pr-3 py-2 rounded-md !bg-theme-cardBg-white dark:!bg-theme-cardBg-dark appearance-none outline-0;
+  }
+}
+
+.form-label {
+  @apply text-xs tracking-tight font-semibold;
+}
+
+.form-error-text {
+  @apply text-xs tracking-tight text-danger;
+}
+
+select {
+  &.form-control {
+    @apply appearance-auto;
+  }
+}

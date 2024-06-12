@@ -1,0 +1,72 @@
+.scrollbar {
+  &::-webkit-scrollbar {
+    @apply w-1 h-1 transition-colors;
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply bg-stone-300;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply bg-primary border border-primary rounded-sm;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary;
+  }
+}
+
+.scrollbar-2 {
+  &::-webkit-scrollbar {
+    @apply w-2 h-2 transition-colors;
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply bg-stone-300;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply bg-primary border border-primary rounded-sm;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary;
+  }
+}
+
+.scrollbar-3 {
+  &::-webkit-scrollbar {
+    @apply w-3 h-3 transition-colors;
+  }
+
+  &::-webkit-scrollbar-track {
+    @apply bg-stone-300;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply bg-primary border border-primary rounded-sm;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary;
+  }
+}
+
+.scrollbar-rounded {
+  &::-webkit-scrollbar-track {
+    @apply rounded-full;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @apply rounded-full;
+  }
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    @apply hidden;
+  }
+}

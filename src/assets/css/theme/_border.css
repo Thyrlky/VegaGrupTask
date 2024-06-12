@@ -1,0 +1,4 @@
+.theme-border,
+hr {
+  @apply border-theme-border-white dark:border-theme-border-dark;
+}

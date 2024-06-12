@@ -1,0 +1,13 @@
+.swal2-container {
+  .swal2-popup {
+    @apply !rounded-md bg-theme-cardBg-white dark:bg-theme-cardBg-dark text-theme-text-white-100 dark:text-theme-text-dark-100;
+    .swal2-actions {
+      .swal2-confirm {
+        @apply shadow-none rounded-md px-3 py-2 border border-success transition-colors duration-300 text-white bg-success hover:bg-success/75;
+      }
+      .swal2-cancel {
+        @apply shadow-none rounded-md px-3 py-2 border border-danger transition-colors duration-300 text-white bg-danger hover:bg-danger/75;
+      }
+    }
+  }
+}

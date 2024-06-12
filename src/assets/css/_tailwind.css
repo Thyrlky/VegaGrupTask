@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.debug-screens:before {
+  @apply !left-[5px] !bottom-[5px];
+}
+
+.form-popup .dx-toolbar-center {
+  @apply w-full;
+}
+
+.dx-texteditor.form-editor :deep(.form-editor-icon:first-child) {
+  @apply ml-0 pointer-events-none border-transparent bg-transparent;
+}

@@ -1,0 +1,115 @@
+.btn {
+  @apply rounded-md px-3 py-2 border border-transparent transition-colors duration-300;
+
+  &:disabled {
+    @apply opacity-50 cursor-not-allowed;
+  }
+
+  &.btn-primary {
+    @apply text-white bg-primary border-primary;
+    &:not(:disabled) {
+      &:hover {
+        @apply bg-primary/75;
+      }
+    }
+  }
+
+  &.btn-secondary {
+    @apply text-white bg-secondary border-secondary;
+    &:not(:disabled) {
+      &:hover {
+        @apply bg-secondary/75;
+      }
+    }
+  }
+
+  &.btn-success {
+    @apply text-white bg-success border-success;
+    &:not(:disabled) {
+      &:hover {
+        @apply bg-success/75;
+      }
+    }
+  }
+
+  &.btn-warning {
+    @apply text-white bg-warning border-warning;
+    &:not(:disabled) {
+      &:hover {
+        @apply bg-warning/75;
+      }
+    }
+  }
+
+  &.btn-danger {
+    @apply text-white bg-danger border-danger;
+    &:not(:disabled) {
+      &:hover {
+        @apply bg-danger/75;
+      }
+    }
+  }
+
+  &.btn-info {
+    @apply text-white bg-info border-info;
+    &:not(:disabled) {
+      &:hover {
+        @apply bg-info/75;
+      }
+    }
+  }
+
+  &.btn-outline-primary {
+    @apply text-primary border-primary;
+    &:not(:disabled) {
+      &:hover {
+        @apply text-white  bg-primary;
+      }
+    }
+  }
+
+  &.btn-outline-secondary {
+    @apply text-secondary border-secondary;
+    &:not(:disabled) {
+      &:hover {
+        @apply text-white  bg-secondary;
+      }
+    }
+  }
+
+  &.btn-outline-success {
+    @apply text-success border-success;
+    &:not(:disabled) {
+      &:hover {
+        @apply text-white  bg-success;
+      }
+    }
+  }
+
+  &.btn-outline-warning {
+    @apply text-warning border-warning;
+    &:not(:disabled) {
+      &:hover {
+        @apply text-white  bg-warning;
+      }
+    }
+  }
+
+  &.btn-outline-danger {
+    @apply text-danger border-danger;
+    &:not(:disabled) {
+      &:hover {
+        @apply text-white  bg-danger;
+      }
+    }
+  }
+
+  &.btn-outline-info {
+    @apply text-info border-info;
+    &:not(:disabled) {
+      &:hover {
+        @apply text-white  bg-info;
+      }
+    }
+  }
+}
